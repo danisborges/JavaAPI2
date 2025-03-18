@@ -1,0 +1,15 @@
+### Listar gêneros
+GET http://localhost:8080/generos
+
+### Buscar gênero por ID
+GET http://localhost:8080/generos/1
+
+### Criar gênero
+POST http://localhost:8080/generos
+Content-Type: application/json
+
+{
+  "descricao": "Ficção Científica"
+}
+
+### Atual
